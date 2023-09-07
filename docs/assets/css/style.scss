@@ -1,0 +1,22 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+$avatar-border-color: rgba(255, 255, 255, 0.7) !default;
+$avatar-box-shadow-color: rgba(255, 255, 255, 0.7) !default;
+
+p {
+    text-align: justify;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: $avatar-box-shadow-color 0px 0px 60px 1px;
+    border: 1px solid $avatar-border-color;
+}
+
+.project-tagline {
+    opacity: 1;
+}

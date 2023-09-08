@@ -11,10 +11,12 @@ p {
 }
 
 .avatar {
+    display: inline-block;
+    height: 200px;
     width: 200px;
     border-radius: 50%;
-    box-shadow: $avatar-box-shadow-color 0px 0px 60px 1px;
     border: 1px solid $avatar-border-color;
+    background: url('https://avatars.githubusercontent.com/u/2228966?v=4') center/contain;
 }
 
 .project-tagline {
